@@ -1,0 +1,66 @@
+{
+  "api": {
+    "apiaa5c3f75": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "phoneside435d70f7"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    }
+  },
+  "function": {
+    "phoneside435d70f7": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "hosting": {
+    "amplifyhosting": {
+      "providerPlugin": "awscloudformation",
+      "service": "amplifyhosting",
+      "type": "manual"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_phoneside435d70f7_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "phoneside435d70f7"
+        }
+      ]
+    },
+    "AMPLIFY_function_phoneside435d70f7_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "phoneside435d70f7"
+        }
+      ]
+    },
+    "AMPLIFY_hosting_amplifyhosting_appId": {
+      "usedBy": [
+        {
+          "category": "hosting",
+          "resourceName": "amplifyhosting"
+        }
+      ]
+    },
+    "AMPLIFY_hosting_amplifyhosting_type": {
+      "usedBy": [
+        {
+          "category": "hosting",
+          "resourceName": "amplifyhosting"
+        }
+      ]
+    }
+  }
+}

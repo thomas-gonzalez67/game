@@ -1,0 +1,32 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-phoneside-dev-181343-authRole",
+      "UnauthRoleArn": "arn:aws:iam::678602113783:role/amplify-phoneside-dev-181343-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::678602113783:role/amplify-phoneside-dev-181343-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-phoneside-dev-181343-deployment",
+      "UnauthRoleName": "amplify-phoneside-dev-181343-unauthRole",
+      "StackName": "amplify-phoneside-dev-181343",
+      "StackId": "arn:aws:cloudformation:us-east-1:678602113783:stack/amplify-phoneside-dev-181343/217f5630-58cc-11ee-9eda-0e7293f7fe4d",
+      "AmplifyAppId": "d50dcphtye9iv"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d50dcphtye9iv",
+          "type": "manual"
+        }
+      },
+      "function": {
+        "phoneside435d70f7": {
+          "deploymentBucketName": "amplify-phoneside-dev-181343-deployment",
+          "s3Key": "amplify-builds/phoneside435d70f7-44437a68492f6462774a-build.zip"
+        }
+      },
+      "api": {
+        "apiaa5c3f75": {}
+      }
+    }
+  }
+}
